@@ -1,0 +1,289 @@
+body{
+
+
+}
+
+.empty-states{
+    margin: 10px;
+    background: url("/assets/images/empty-states.png");
+    width: 533px;
+    border-style: solid;
+    height: 400px;
+    display:inline-block;
+    zoom: 0.5;
+}
+
+.empty-states.first{
+
+    background-position: 0 0;
+
+}
+
+.empty-states.second{
+    background-position: top;
+
+}
+
+.empty-states.third{
+    background-position: top right;
+}
+
+.empty-states.fourth{
+    background-position: left;
+}
+
+.empty-states.fifth{
+    background-position: center;
+}
+
+.empty-states.sixth{
+    background-position: right;
+}
+
+.empty-states.seventh{
+    background-position: bottom left;
+}
+
+.empty-states.eighth{
+    background-position: bottom;
+}
+
+.empty-states.ninth{
+    background-position: bottom right;
+}
+
+.data-bricks{
+    display: inline-block;
+    margin: 10px;
+    background: url("/assets/images/databricks-icon.webp");
+    width: 90px;
+    height: 83px;
+    border-style: solid;
+
+
+}
+
+.data-bricks.first{
+
+        background-position: -152px -110px;
+
+}
+
+.data-bricks.second{
+    background-position: -312px -110px;
+}
+
+.data-bricks.third{
+    background-position: -472px -110px;
+}
+
+.data-bricks.fourth{
+    background-position: -632px -110px;
+}
+
+.data-bricks.fifth{
+    background-position: -792px -110px;
+}
+
+.data-bricks.sixth{
+    background-position: -152px -240px;
+}
+
+.data-bricks.seventh{
+    background-position: -312px -240px;
+}
+
+.data-bricks.eighth{
+    background-position: -472px -240px;
+}
+
+.data-bricks.ninth{
+    background-position: -632px -240px;
+}
+
+.data-bricks.tenth{
+    background-position: -792px -240px;
+}
+
+.data-bricks.eleventh{
+    background-position: -152px -370px;
+}
+
+.data-bricks.twelfth{
+    background-position: -312px -370px;
+}
+
+.data-bricks.thirteenth{
+    background-position: -472px -370px;
+}
+
+.data-bricks.fourteenth{
+    background-position: -632px -370px;
+}
+
+.data-bricks.fifteenth{
+    background-position: -792px -370px;
+}
+
+.data-bricks.sixteenth{
+    background-position: -152px -495px;
+}
+
+.data-bricks.seventeenth{
+    background-position: -312px -495px;
+}
+
+.data-bricks.eighteenth{
+    background-position: -472px -495px;
+}
+
+.data-bricks.nineteenth{
+    background-position: -632px -495px;
+}
+
+.data-bricks.twentieth{
+    background-position: -792px -495px;
+}
+
+
+.test-spots{
+    display: inline-block;
+    margin: 10px;
+    background: url("/assets/images/test-spots.webp");
+    width: 220px;
+    height: 220px;
+    border-style: solid;
+    zoom: 0.5;
+}
+
+.test-spots.first{
+
+    background-position: -160px -180px;
+
+}
+
+.test-spots.second{
+    background-position: -518px -180px;
+}
+
+.test-spots.third{
+    background-position: -876px -180px;
+}
+
+.test-spots.fourth{
+    background-position: -1234px -180px;
+}
+
+.test-spots.fifth{
+    background-position: -160px -490px;
+}
+
+.test-spots.sixth{
+    background-position: -518px -490px;
+}
+
+.test-spots.seventh{
+    background-position: -876px -490px;
+}
+
+.test-spots.eighth{
+    background-position: -1234px -490px;
+}
+
+.test-spots.ninth{
+    background-position: -160px -800px;
+}
+
+.test-spots.tenth{
+    background-position: -518px -800px;
+}
+
+.test-spots.eleventh{
+    background-position: -876px -800px;
+}
+
+.test-spots.twelfth{
+    background-position: -1234px -800px;
+}
+
+
+.toggle[type="checkbox"]{
+
+    display: none;
+}
+.toggle[type="checkbox"] + label {
+    width: 229px;
+    height: 101px;
+
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 1000px;
+    zoom: 0.5;
+}
+
+.toggle.checkbox[type="checkbox"] + label {
+    background-image: url("/assets/images/toggle.webp");
+
+    background-position: -104px -262px;
+}
+
+.toggle.checkbox[type="checkbox"]:hover + label {
+    background-image: url("/assets/images/toggle.webp");
+    background-position: -104px -503px;
+}
+
+
+.toggle.checkbox[type="checkbox"]:checked + label {
+    background-position: -104px -146px;
+}
+
+.toggle.checkbox[type="checkbox"]:checked:hover + label {
+    background-position: -104px -387px;
+}
+
+
+
+.toggle.checkbox1[type="checkbox"] + label {
+    background-image: url("/assets/images/toggle.webp");
+
+    background-position: -385px -262px;
+}
+
+.toggle.checkbox1[type="checkbox"]:hover + label {
+    background-image: url("/assets/images/toggle.webp");
+    background-position: -385px -503px;
+}
+
+
+.toggle.checkbox1[type="checkbox"]:checked + label {
+    background-position: -385px -146px;
+}
+
+.toggle.checkbox1[type="checkbox"]:checked:hover + label {
+    background-position: -385px -387px;
+}
+
+.toggle.checkbox2[type="checkbox"] + label {
+    background-image: url("/assets/images/toggle.webp");
+
+    background-position: -666px -262px;
+}
+
+.toggle.checkbox2[type="checkbox"]:hover + label {
+    background-image: url("/assets/images/toggle.webp");
+    background-position: -666px -503px;
+}
+
+
+.toggle.checkbox2[type="checkbox"]:checked + label {
+    background-position: -666px -146px;
+}
+
+.toggle.checkbox2[type="checkbox"]:checked:hover + label {
+    background-position: -666px -387px;
+}
+
+
+
+

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sprite</title>
+    <link rel="stylesheet" href="assets/css/reboot.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <section class="empty-states-side">
+
+        <div class="empty-states first"></div>
+
+        <div class="empty-states second"></div>
+
+        <div class="empty-states third"></div>
+
+        <div class="empty-states fourth"></div>
+
+        <div class="empty-states fifth"></div>
+
+        <div class="empty-states sixth"></div>
+
+        <div class="empty-states seventh"></div>
+
+        <div class="empty-states eighth"></div>
+
+        <div class="empty-states ninth"></div>
+
+    </section>
+
+    <section class="data-bricks-side">
+        <div class="data-bricks first"></div>
+        <div class="data-bricks second"></div>
+        <div class="data-bricks third"></div>
+        <div class="data-bricks fourth"></div>
+        <div class="data-bricks fifth"></div>
+        <div class="data-bricks sixth"></div>
+        <div class="data-bricks seventh"></div>
+        <div class="data-bricks eighth"></div>
+        <div class="data-bricks ninth"></div>
+        <div class="data-bricks tenth"></div>
+        <div class="data-bricks eleventh"></div>
+        <div class="data-bricks twelfth"></div>
+        <div class="data-bricks thirteenth"></div>
+        <div class="data-bricks fourteenth"></div>
+        <div class="data-bricks fifteenth"></div>
+        <div class="data-bricks sixteenth"></div>
+        <div class="data-bricks seventeenth"></div>
+        <div class="data-bricks eighteenth"></div>
+        <div class="data-bricks nineteenth"></div>
+        <div class="data-bricks twentieth"></div>
+
+    </section>
+
+    <section class="test-spots-side">
+        <div class="test-spots first"></div>
+        <div class="test-spots second"></div>
+        <div class="test-spots third"></div>
+        <div class="test-spots fourth"></div>
+        <div class="test-spots fifth"></div>
+        <div class="test-spots sixth"></div>
+        <div class="test-spots seventh"></div>
+        <div class="test-spots eighth"></div>
+        <div class="test-spots ninth"></div>
+        <div class="test-spots tenth"></div>
+        <div class="test-spots eleventh"></div>
+        <div class="test-spots twelfth"></div>
+    </section>
+
+    <section class="toggle-side">
+
+
+        <input type="checkbox" class="toggle checkbox" id="checkFirst" onclick="checkFunc('checkFirst')" ><label for="checkFirst"></label>
+        <input type="checkbox" class="toggle checkbox1" id="checkSecond" onclick="checkFunc('checkSecond')" ><label for="checkSecond"></label>
+        <input type="checkbox" class="toggle checkbox2" id="checkThird" onclick="checkFunc('checkThird')" ><label for="checkThird"></label>
+
+    </section>
+</body>
+
+<script>
+    function checkFunc(check){
+        let checkBox = document.getElementById(check);
+        if(checkBox.checked == true){
+            if(check == 'checkFirst')
+                document.body.style.backgroundColor = "#1A0533";
+            else if(check == 'checkSecond')
+                document.body.style.backgroundColor = "#8A4CFF";
+            else if(check == 'checkThird')
+                document.body.style.backgroundColor = "#00EDB6";
+        }else{
+            document.body.style.backgroundColor = "white";
+        }
+    }
+</script>
+</html>
